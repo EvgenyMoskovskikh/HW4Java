@@ -1,12 +1,12 @@
 import java.util.ListIterator;
 import java.util.Random;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class HW4 {
 
     public static void main(String[] args) {
-        task2();
+        task3();
     }
 
     public static void task1() {
@@ -14,7 +14,7 @@ public class HW4 {
          * Пусть дан LinkedList с несколькими элементами. Реализуйте метод, который
          * вернет “перевернутый” список.
          */
-        ArrayList<Integer> listInt = new ArrayList<>();
+        LinkedList<Integer> listInt = new LinkedList<>();
         Random random = new Random();
         int n = random.nextInt(10, 30);
         for (int i = 0; i < n; i++) {
@@ -52,7 +52,7 @@ public class HW4 {
          * Найдите сумму всех элементов LinkedList, сохраняя все элементы в списке.
          * Используйте итератор
          */
-        List<Integer> listInt = new ArrayList<>();
+        List<Integer> listInt = new LinkedList<>();
         Random random = new Random();
         int n = random.nextInt(10, 50);
         for (int i = 0; i < n; i++) {
